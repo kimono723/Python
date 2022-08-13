@@ -34,3 +34,10 @@ if JackMoeny>=huaweip30pro:
 print(List)
 Max=max(List)
 print(f"其中最便宜的是小米i9，一共便宜了{Max}")
+
+#鸡腿与运动问题,如果一天超过五个就要运动。
+drumstick=3
+if drumstick>5:
+    print(f"yes,需要跑步,今天吃了{drumstick}个鸡腿")
+else:
+    print(f"no，不需要，今天吃了{drumstick}个鸡腿")
