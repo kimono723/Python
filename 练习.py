@@ -142,3 +142,14 @@ print(List)
 print(List[-1])
 List.append("suhua")
 print(List)
+
+#题目
+SpecialDate=[199303035,20100505,20140214]
+SpecialDate[0]=19930704
+print(SpecialDate)
+
+word="abcdefg"
+print(word[0])
+print(word[2])
+
+
