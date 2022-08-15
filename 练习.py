@@ -1,7 +1,9 @@
 from ctypes.wintypes import HPALETTE
+from operator import truediv
 import random
 from re import A
 from sys import dont_write_bytecode
+from time import daylight
 abc=random.random()
 print(abc)
 
@@ -152,4 +154,91 @@ word="abcdefg"
 print(word[0])
 print(word[2])
 
+DpecialDate=[19930305,20100505,20140214]
+print(DpecialDate)
+DpecialDate.append(19930704)
+print(DpecialDate)
 
+SpecialDate=[19930305,20100505,20140214]
+print(SpecialDate)
+SpecialDate.insert(1,19930704)
+print(SpecialDate)
+
+SpecialDate=[19930305,20100505,20100505,20140214]
+print(SpecialDate)
+#del(SpecialDate[-1])
+lastDate=SpecialDate.pop()
+print(SpecialDate)
+print(lastDate)
+
+dayList=["星期日","星期二","October","星期三","星期五"]
+del(dayList[2])
+print(dayList)
+dayList.insert(1,"星期一")
+dayList.insert(4,"星期四")
+#dayList.insert(6,"星期六")
+dayList.append("星期六")
+print(dayList)
+
+list1=[1,2,3,4]
+list1.pop(0)
+list1.insert(0,4)
+list1.pop(1)
+list1.insert(1,3)
+list1.pop(2)
+list1.insert(2,2)
+list1.pop(3)
+list1.insert(3,1)
+print(list1)
+
+AgeList=[18,19,21,22,24]
+for oneAge in AgeList:
+    print(oneAge)
+
+a=range(30)
+print(list(a))
+
+sum=0
+for i in range(1001):
+    sum=sum+i
+print(sum)
+
+NewList=[]
+for i in range(101):
+    if i%2==0:
+        NewList.append(i)
+print(NewList)
+
+jiage=0
+price=[3,15,11,9,12,3,9,15,18,14]
+for i in price:
+    jiage=jiage+i
+print(jiage)
+
+NumList=[83,80,18,4,88,21,96,20,40,59]
+MaxNumber=NumList[0]
+for i in NumList:
+    if i>MaxNumber:
+        MaxNumber=i
+print(MaxNumber)
+
+bool=1
+i=0
+#while bool==1:
+#    i=i+1
+#    print(i)
+
+Nub=5
+while Nub<=10:
+    print(Nub)
+    Nub=Nub+1
+    
+a=0
+for i in range(101):
+    a=a+i
+print(a)
+
+i=1
+while i<=10:
+    print("*"*i)
+    i=i+1
